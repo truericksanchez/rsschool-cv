@@ -13,3 +13,5 @@
 				return a * b
 		}
 6. I have no real development experience.
+7. I am currently completing [Code Basics](https://ru.code-basics.com/) free courses, [Git from A to Z](https://gb.ru/certificates/1318706.en), starting to read the Grokking Algorithms and [learn.JS](https://learn.javascript.ru/).
+8. I passed the [EF SET Quick Check](https://www.efset.org/ru/quick-check/take-test#set15-190/result) for B1 but according to my feelings my English lvl is between A1 - A2. I continue to learn English.

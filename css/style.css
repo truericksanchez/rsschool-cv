@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+	height: 100%;
+	font-family: "Lato", sans-serif;
+	background: #bbbbbb;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 0 20px;
+}
+.header__header {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.header__list {
+	list-style: none;
+	display: inline-flex;
+	width: 50%;
+	justify-content: space-between;
+}
+.header__list li {
+	align-self: center;
+	text-transform: uppercase;
+}
+.header__list li a {
+	text-decoration: none;
+	color: #fff;
+}
+.header__list li a:hover {
+	text-shadow: 2px 3px #000;
+}
+.header__item1 img {
+	height: 32px;
+}
+.header__item2 img {
+}
+.header__item3 img {
+}
+.content {
+}
+.skills {
+}
+.skills__header {
+}
+.skills__list {
+}
+.skills__item1 {
+}
+.skills__item2 {
+}
+.skills__item3 {
+}
+.skills__item4 {
+}
+.photo {
+}
+.photo__item {
+}
+.about {
+}
+.about__header {
+}
+.about__text {
+}
+.code {
+}
+.code__header {
+}
+.code__item {
+}
+.work {
+}
+.work__header {
+}
+.work__text {
+}
+.edu {
+}
+.edu__header {
+}
+.edu__text {
+}
+.eng {
+}
+.eng__header {
+}
+.eng__text {
+}
+.footer {
+}
+.footer__github {
+}
+.footer__link1 {
+}
+.footer__git-photo {
+}
+.footer__rss {
+}
+.footer__text {
+}
+.footer__link2 {
+}
+.footer__rss-logo {
+}

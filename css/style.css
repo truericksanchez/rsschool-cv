@@ -3,6 +3,17 @@ body {
 	height: 100%;
 	font-family: "Lato", sans-serif;
 	background: #bbbbbb;
+	font-size: 17px;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	text-transform: uppercase;
+}
+p {
+	line-height: 24px;
+	font-style: italic;
 }
 .wrapper {
 	display: flex;
@@ -19,7 +30,6 @@ body {
 	padding: 0 20px;
 }
 .header__header {
-	text-transform: uppercase;
 	font-size: 36px;
 }
 .header__list {
@@ -40,19 +50,29 @@ body {
 	text-shadow: 2px 3px #000;
 }
 .header__item1 img {
-	height: 32px;
+	height: 50px;
 }
 .header__item2 img {
+	height: 50px;
 }
 .header__item3 img {
+	height: 50px;
 }
 .content {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
 }
 .skills {
+	flex: 0 1 50%;
 }
 .skills__header {
 }
 .skills__list {
+	font-size: 50px;
 }
 .skills__item1 {
 }
@@ -63,52 +83,67 @@ body {
 .skills__item4 {
 }
 .photo {
+	flex: 0 1 50%;
+}
+.photo img {
+	height: 400px;
+	border-radius: 50%;
 }
 .photo__item {
 }
 .about {
+	flex: 0 1 100%;
 }
 .about__header {
 }
 .about__text {
 }
 .code {
+	flex: 0 1 50%;
 }
 .code__header {
 }
 .code__item {
 }
 .work {
+	flex: 0 1 50%;
 }
 .work__header {
 }
 .work__text {
 }
 .edu {
+	flex: 0 1 50%;
 }
 .edu__header {
 }
 .edu__text {
 }
 .eng {
+	flex: 0 1 50%;
 }
 .eng__header {
 }
 .eng__text {
 }
 .footer {
-}
-.footer__github {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 0 20px;
+	margin-top: 10px;
 }
 .footer__link1 {
 }
-.footer__git-photo {
+.footer__github img {
+	height: 50px;
+	margin-top: 15px;
 }
 .footer__rss {
 }
-.footer__text {
+.footer__text img {
+	height: 50px;
 }
 .footer__link2 {
-}
-.footer__rss-logo {
 }

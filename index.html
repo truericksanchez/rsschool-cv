@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CurriculumVitae</title>
 </head>
+
 <body>
 	<article class="wrapper">
-		<header>
-			<h1>Dmitri Kostylev</h1>
-			<ul>
-				<li> <a href="https://t.me/wcdpooh" target="_blank">Telegram</a> </li>
-				<li> <a href="https://vk.com/comebaaackkid"  target="_blank">VK</a> </li>
-				<li> <a href="https://discord.com/"  target="_blank">wcd#5483 </a> </li>
+		<header class="header">
+			<h1 class="header__header">Dmitri Kostylev</h1>
+			<ul class="header__list">
+				<li class="header__item1"> <a href="https://t.me/wcdpooh" target="_blank">Telegram</a> </li>
+				<li class="header__item2"> <a href="https://vk.com/comebaaackkid" target="_blank">VK</a> </li>
+				<li class="header__item3"> <a href="https://discord.com/" target="_blank">wcd#5483 </a> </li>
 			</ul>
 		</header>
-		<main>
-			
+		<main class="content">
+			<section class="skills">
+				<h1 class="skills__header">Skills</h1>
+				<ul class="skills__list">
+					<li class="skills__item1">HTML, CSS, JS</li>
+					<li class="skills__item2">Git</li>
+					<li class="skills__item3">BEM</li>
+					<li class="skills__item4">Chrome DevTools</li>
+				</ul>
+			</section>
+			<picture class="photo">
+				<source srcset="img/me.jpg">
+				<img src="img/me.jpg" alt="my-photo" class="photo__item">
+			</picture>
+			<section class="about">
+				<h1 class="about__header">About</h1>
+				<p class="about__text">My goal is to become a developer. All my life I've been interested in computer science, but development has bypassed me. Computer science at school was an insanely uninteresting subject on which the teacher did not tell us anything useful, and in the end, I chose the path of the humanities. Now in my life came that turning point when I firmly decided to radically change it. I want to learn something new, meet interesting people, do things that I like. I need to bring real benefits and see the results of my work. IT can give me all of this. I am not a stupid person and i can learn easily and quickly. I'm patient, sociable and responsible, I have critical thinking. Every step, every turn on the path of life, every episode and statistical incredibility that brought me here helped me understand that if you got a chance, you shouldn't stop.</p>
+			</section>
+			<section class="code">
+				<h1 class="code__header">Code example</h1>
+				<code class="code__item">
+					function multiply(a, b){
+						return a * b
+					}
+				</code>
+			</section>
+			<section class="work">
+				<h1 class="work__header">Work experience</h1>
+				<p class="work__text">I have no real development experience.</p>
+			</section>
+			<section class="edu">
+				<h1 class="edu__header">Education</h1>
+				<p class="edu__text">I am currently completing <a href="https://ru.code-basics.com/" target="_blank">Code Basics</a> free courses, <a href="https://gb.ru/certificates/1318706.en" target="_blank">Git from A to Z</a>, starting to read the Grokking Algorithms and <a href="https://learn.javascript.ru/" target="_blank">learn.JS</a>.</p>
+			</section>
+			<section class="eng">
+				<h1 class="eng__header">English</h1>
+				<p class="eng__text">I passed the <a href="https://www.efset.org/ru/quick-check/take-test#set15-190/result" target="_blank">EF SET Quick Check</a> for B1 but according to my feelings my English lvl is between A1 - A2. I continue to learn English.</p>
+			</section>
 		</main>
-		<footer>
-			<ul>
-				<li> <a href="#">© 2021</a></li>
-				<li> <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rsschool-logo"></a> </li>
-				<li> <a href="https://github.com/truericksanchez">GitHub, @truericksanchez</a> </li>
-			</ul>
+		<footer class="footer">
+			<div class="footer__github">
+				<a href="https://github.com/truericksanchez" target="_blank"  class="footer__link1"> <img src="img/Octocat.png" alt="octocat" class="footer__git-photo"> My GitHub</a>
+			</div>
+			<div class="footer__rss">
+				<p class="footer__text">
+					<a href="https://rs.school/js/" class="footer__link2"><img src="img/rs_school_js.svg" alt="rsschool-logo" class="footer__rss-logo"></a> 2021
+				</p>
+			</div>
 		</footer>
 	</article>
 </body>
+
 </html>
+
+<!-- <ul class="footer__list">
+	<li class="footer__item1"> <a href="#">© 2021</a></li>
+	<li class="footer__item2"> <a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg" alt="rsschool-logo"></a> </li>
+	<li class="footer__item3"> <a href="https://github.com/truericksanchez" target="_blank">GitHub, @truericksanchez</a> </li>
+</ul> -->

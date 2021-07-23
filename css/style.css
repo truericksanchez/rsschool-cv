@@ -6,7 +6,11 @@ body {
 	font-size: 17px;
 }
 a {
+	color: #fff;
 	text-decoration: none;
+}
+a:hover {
+	color: rgb(138, 43, 226);
 }
 h1 {
 	text-transform: uppercase;
@@ -28,6 +32,7 @@ p {
 	border: 1px solid #000;
 	border-radius: 10px;
 	padding: 0 20px;
+	background: linear-gradient(to bottom right,#009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
 }
 .header__header {
 	font-size: 36px;
@@ -65,6 +70,7 @@ p {
 	border-radius: 10px;
 	padding: 20px;
 	margin-top: 10px;
+	background: linear-gradient(to bottom left, #56e2ff, #44d7ff, #2dcbff, #00bfff, #00b3f3, #00a8e7, #009dda)
 }
 .skills {
 	flex: 0 1 50%;
@@ -103,7 +109,15 @@ p {
 }
 .code__header {
 }
+.code__area {
+	display: inline-block;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: rgb(223, 223, 223);
+	padding: 5px;
+}
 .code__item {
+	color: rgb(253, 2, 98);
 }
 .work {
 	flex: 0 1 50%;
@@ -133,6 +147,7 @@ p {
 	border-radius: 10px;
 	padding: 0 20px;
 	margin-top: 10px;
+	background: linear-gradient(to bottom right,#009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
 }
 .footer__link1 {
 }

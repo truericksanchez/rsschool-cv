@@ -15,6 +15,11 @@ a:hover {
 }
 h1 {
 	text-transform: uppercase;
+	text-shadow: 2px 2px #fff;
+}
+h2 {
+	text-transform: uppercase;
+	text-shadow: 2px 2px #fff;
 }
 p {
 	line-height: 24px;
@@ -35,7 +40,7 @@ p {
 	border: 1px solid #000;
 	border-radius: 10px;
 	padding: 0 20px;
-	background: linear-gradient(to bottom right,#009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
+	background: linear-gradient(to bottom right, #009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
 }
 .header__header {
 	font-size: 36px;
@@ -65,44 +70,35 @@ p {
 	border-radius: 10px;
 	padding: 20px;
 	margin-top: 10px;
-	background: linear-gradient(to bottom left, #56e2ff, #44d7ff, #2dcbff, #00bfff, #00b3f3, #00a8e7, #009dda)
+	background: linear-gradient(to bottom left, #56e2ff, #44d7ff, #2dcbff, #00bfff, #00b3f3, #00a8e7, #009dda);
 }
 .skills {
 	flex: 0 1 50%;
 }
-.skills__header {
-}
 .skills__list {
+	list-style: none;
 	font-size: 50px;
 }
-.skills__item1 {
-}
-.skills__item2 {
-}
-.skills__item3 {
-}
-.skills__item4 {
+.skills__item::before {
+	content: url(/rsschool-cv/img/check.png);
+	padding: 20px;
 }
 .photo {
 	flex: 0 1 50%;
 }
 .photo img {
 	height: 400px;
-	border-radius: 50%;
+	border-radius: 30%;
+	box-shadow: 0 5px 10px #0000008a;
 }
-.photo__item {
+.photo img:hover {
+	box-shadow: 0 5px 10px #ffffff8a;
 }
 .about {
 	flex: 0 1 100%;
 }
-.about__header {
-}
-.about__text {
-}
 .code {
 	flex: 0 1 50%;
-}
-.code__header {
 }
 .code__area {
 	display: inline-block;
@@ -117,23 +113,11 @@ p {
 .work {
 	flex: 0 1 50%;
 }
-.work__header {
-}
-.work__text {
-}
 .edu {
 	flex: 0 1 50%;
 }
-.edu__header {
-}
-.edu__text {
-}
 .eng {
 	flex: 0 1 50%;
-}
-.eng__header {
-}
-.eng__text {
 }
 .footer {
 	display: flex;
@@ -142,18 +126,12 @@ p {
 	border-radius: 10px;
 	padding: 0 20px;
 	margin-top: 10px;
-	background: linear-gradient(to bottom right,#009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
-}
-.footer__link1 {
+	background: linear-gradient(to bottom right, #009dda, #00a8e7, #00b3f3, #00bfff, #2dcbff, #44d7ff, #56e2ff);
 }
 .footer__github img {
 	height: 50px;
 	margin-top: 15px;
 }
-.footer__rss {
-}
 .footer__text img {
 	height: 50px;
-}
-.footer__link2 {
 }

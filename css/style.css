@@ -2,8 +2,9 @@
 body {
 	height: 100%;
 	font-family: "Lato", sans-serif;
-	background: #bbbbbb;
 	font-size: 17px;
+	background-image: url(/rsschool-cv/img/background.png);
+	background-size: cover;
 }
 a {
 	color: #fff;
@@ -27,6 +28,8 @@ p {
 	margin: 0 auto;
 }
 .header {
+	position: sticky;
+	top: 0;
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #000;
@@ -45,14 +48,6 @@ p {
 }
 .header__list li {
 	align-self: center;
-	text-transform: uppercase;
-}
-.header__list li a {
-	text-decoration: none;
-	color: #fff;
-}
-.header__list li a:hover {
-	text-shadow: 2px 3px #000;
 }
 .header__item1 img {
 	height: 50px;
